@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Bookmark</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body>  
 
   <section id="hero">
     <h2 class="none">Bookmark</h2>
@@ -28,15 +30,21 @@
             </ul>
             <button class="nav-btn">LOGIN</button>
           </nav>
+            <button class="burder-btn"><i class='bx bx-menu'></i></button>
         </div>
+        
       </div> 
     </header>
     <div class="hero-content">
       <div class="container">
-            <h1 class="hero-title">A Simple Bookmark <br> Manager</h1>
+        <div class="hero__main__wrapper">
+          <h1 class="hero-title">A Simple Bookmark <br> Manager</h1>
+          <div class="hero-text-wrapper">
             <h2 class="hero-sub-title">A clean and simple interface to organize your favourite websites. <br> Open a new browser tab and see your sites load instantly. Try it <br> for free.</h2>
             <a class="hero-link" href="#">Get it on Chrome</a>
             <a class="hero-link second-hero-link" href="#">Get it on Firefox</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -57,8 +65,8 @@
 
         <div class="container">
           <div class="bookmark-inner row">
-            <div>
-              <h3 class="feature-title">Bookmark in one click</h3>
+            <div class="bookmark__wrapper">
+              <h3 class="feature-title bookmark__title">Bookmark in one click</h3>
               <p class="features-text bookmark-text">Organize your bookmarks however you like. Our <br> simple drag-and-drop interface gives you complete <br> control over how you manage your favourite sites.</p>
               <a class="bookmark-link" href="#">More Info</a>
             </div>
@@ -153,7 +161,7 @@
         </div>
       </div>
       <div class="info-wrapper">
-        <a class="bookmark-link" href="#">More Info</a>
+        <a class="bookmark-link faq-link" href="#">More Info</a>
       </div>
 
 
@@ -175,7 +183,7 @@
 
   <footer id="site-footer">
     <div class="container">
-      <div class="row middle footer-inner">
+      <div class="row  middle footer-inner">
         <div>
           <a class="footer-logo" href="#"><img src="images/footer-logo.svg" alt="footer-logo" width="148" height="25"></a>
         </div>
@@ -185,8 +193,10 @@
             <li class="footer-item"><a class="footer-link" href="#">PRICING</a></li>
             <li class="footer-item"><a class="footer-link" href="#">CONTACT</a></li>
           </ul>
-          <a class="footer-social-link" href="#"><i class='bx icon bxl-facebook'></i></a>
-          <a class="social-link" href="#"><i class='bx icon bxl-twitter'></i></a>
+          <div class="social__wrapper">
+            <a class="footer-social-link" href="#"><i class='bx icon bxl-facebook'></i></a>
+            <a class="social-link" href="#"><i class='bx icon bxl-twitter'></i></a>
+          </div>
         </nav>
       </div>
     </div>
